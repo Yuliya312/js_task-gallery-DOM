@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body,
+ul,
+a {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+li {
+  list-style-type: none; }
+
+.gallery {
+  margin: 0 auto;
+  width: 50vw;
+  max-width: 990px; }
+  .gallery__large-img {
+    width: 100%;
+    height: 317px; }
+  .gallery__img {
+    border-radius: 2px;
+    border: 5px solid #eee;
+    border-style: double;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .gallery__list {
+    width: 100%;
+    max-width: 990px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .gallery__thumb {
+    width: 100%; }
+
+.list-item__link {
+  display: block;
+  height: 100%; }
+  .list-item__link:focus {
+    outline: none; }
+  .list-item__link:focus, .list-item__link:hover {
+    -webkit-box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0.5);
+            box-shadow: 0 0 2px 2px rgba(128, 128, 128, 0.5); }
+
+.list-item:not(:last-child) {
+  margin-right: 5px; }
+
+/*# sourceMappingURL=main.css.map */
